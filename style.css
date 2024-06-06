@@ -1,0 +1,124 @@
+/* ESTILO */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    background-color: #fff;
+    height: 100vh;
+  }
+  .interface{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .flex{
+    display: flex;
+  }
+  h2.titulo{
+    color: #64accc;
+    font-size: 30px;
+    text-align: center;
+  }
+  h2.porti{
+    text-align: center;
+  }
+  h3.topico{
+    font-size: 30;
+    text-align: center;
+  }
+  /*CABEÇALHO*/
+  header{
+    padding: 40px 4%;
+}
+header > .interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a{
+  color: #64accc;
+  text-decoration: none;
+  font-weight: 500;
+}
+header nav ul{
+  list-style-type: none;
+}
+header nav ul li{
+  display: inline-block;
+  padding: 0 40px;
+}
+.laiscipriano-contato button{
+  padding: 10px 40px ;
+  font-size: 16;
+  font-weight: 600;
+  background-color: #64accc;
+  border: 10;
+  border-radius: 25px;
+  cursor: pointer;
+}
+/*TOPO DO SITE*/
+section.topo-do-site{
+  padding: 40px 4%;
+}
+section.topo-do-site.flex{
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+.topo-do-site h1{
+  font-size: 35px;
+  font-weight: 700;
+}
+.topo-do-site.txt-topo h1 spam{
+  color: #64accc;
+}
+.topo-do-site.txt-topo p{
+  margin: 20px 0;
+}
+section.sobre.flex{
+  align-items: center;
+  justify-content: center;
+}
+h3.topico{
+    margin: 20px 0%;
+}
+p.parag{
+  padding: 10px 4%;
+  text-align: center;
+}
+
+/*PORTIFÓLIO*/
+spam{
+  color: #64accc;
+}
+section.portifolio{
+  padding: 30px 4%;
+}
+section img{
+  border-radius: 10px;
+}
+.img-port{
+  padding: 40 4%;
+}
+h2.cont1{
+  margin: 40px 2%;
+  text-align: center;
+}
+.instagram{
+ display: flex;
+ flex-direction: row;
+ margin-left: 30px;
+}
+.email{
+  display: flex;
+  flex-direction: row;
+ margin-left: 30px;
+}
+.whats{
+ display: flex;
+ flex-direction: row;
+ margin-left: 30px;
+}
+
