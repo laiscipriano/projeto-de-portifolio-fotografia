@@ -1,0 +1,195 @@
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #fff;
+  color: #000;
+  height: 100vh;
+}
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+h2.titulo, h2.porti, h2.cont1 {
+  font-size: 30px;
+  text-align: center;
+  color: #64accc; /* Nova cor para o título */
+}
+h3.topico {
+  font-size: 30px;
+  text-align: center;
+}
+p.parag, p.paragrafo {
+  padding: 10px 4%;
+  text-align: center;
+  color: #333; /* Nova cor para o texto */
+}
+
+/* Cabeçalho */
+header {
+  padding: 20px 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  color: #64accc;
+  text-decoration: none;
+  font-weight: 500;
+}
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+/* Estilizar links de navegação */
+header nav ul li a {
+  color: #64accc;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #ff8c00;
+  border-bottom: 2px solid #ff8c00;
+}
+
+/* Botão de contato */
+.laiscipriano-contato button {
+  padding: 10px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #64accc;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Botão de troca de tema */
+#toggle-theme {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #64accc;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 40px;  /* Aumentar o espaçamento do botão */
+  margin-top: 10px;  /* Adicionar margem superior para mover para baixo */
+}
+
+#toggle-theme:hover {
+  background-color: #ff8c00;
+}
+
+body.dark-mode #toggle-theme {
+  background-color: #ff8c00;
+  color: #000;
+}
+
+body.dark-mode #toggle-theme:hover {
+  background-color: #64accc;
+  color: #fff;
+}
+
+/* Topo do site */
+#topo-do-site {
+  padding: 40px 4%;
+}
+#topo-do-site .flex {
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+.topo-do-site h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.topo-do-site .txt-topo h1 span {
+  color: #64accc;
+}
+.topo-do-site .txt-topo p {
+  margin: 20px 0;
+}
+#habilidades .flex {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+h3.topico {
+  margin: 20px 0;
+}
+p.parag {
+  padding: 10px 4%;
+  text-align: center;
+}
+
+/* Portfólio */
+#portfolio {
+  padding: 30px 4%;
+}
+#portfolio img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+}
+.img-port {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h2.cont1 {
+  margin: 40px 2%;
+  text-align: center;
+}
+.links, .email, .whats {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Responsividade */
+@media (min-width: 600px) {
+  header {
+    padding: 20px 4%;
+  }
+  header nav ul li {
+    padding: 0 30px;
+  }
+  .txt-topo h1 {
+    font-size: 40px;
+  }
+  .txt-topo p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    padding: 20px 8%;
+  }
+  header nav ul li {
+    padding: 0 40px;
